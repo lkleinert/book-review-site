@@ -10,12 +10,7 @@ Hide the bullet-points of the unordered lists in the site */
     font-family: Arial;
 }
 
-footer {
-    border: solid;
-    border: 0cm;
-    background-color:blanchedalmond
-}
-
+/* not needed, better to do <em> */
 .emphasis {
     font-style: italic;}
 
@@ -35,19 +30,23 @@ h4 {
     color:black
 }
 
-header {
-    border: solid;
-    border: 0cm;
+header, footer {
+    border: 5px solid black;
     background-color: azure;
-
-}
-
-.link:hover {
-    color:gold;
 }
 
 main {
     background-color: honeydew;
 }
 
-ul {list-style: none;}
+nav a:hover {
+    color:gold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

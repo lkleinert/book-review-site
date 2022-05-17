@@ -1,0 +1,11 @@
+/* Center all the text of the main content (excluding content in header and footer elements)
+Round the corners of the site maintainer image */
+
+.content {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    border: 25px solid black;
+}
