@@ -1,21 +1,53 @@
 /* Give the header and footer sections a border and background color
 Give the main content section a background color
 Apply a new font to the entire page (ex: Helvetica or Arial)
-Italicize any book titles that appear in the text content of the page
+Italicize any book titles that appear in the text content of the page  ->Lou-> did with <em> HTML tag and <span> with HTML class
 Apply a new color to each heading element
 Display a different color when the mouse rolls over the navigational links
 Hide the bullet-points of the unordered lists in the site */
 
-header {border:solid;
-    border:0cm;
-    background-color: aqua;
+* {
+    font-family: Arial;
+}
+
+footer {
+    border: solid;
+    border: 0cm;
+    background-color:blanchedalmond
+}
+
+.emphasis {
+    font-style: italic;}
+
+h1 {
+    color:rgb(59, 59, 12);
+}
+
+h2 {
+    color:burlywood;
+}
+
+h3 {
+    color:rgb(227, 46, 106);
+}
+
+h4 {
+    color:black
+}
+
+header {
+    border: solid;
+    border: 0cm;
+    background-color: azure;
 
 }
 
-footer {border:solid;
-    border:0cm;
-    background-color: aqua;
-
+.link:hover {
+    color:gold;
 }
 
-body {background-color: aqua;}
+main {
+    background-color: honeydew;
+}
+
+ul {list-style: none;}
