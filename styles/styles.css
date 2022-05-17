@@ -10,6 +10,12 @@ Hide the bullet-points of the unordered lists in the site */
     font-family: Arial;
 }
 
+/* body {
+    background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_full/77ic6i4qdj_Medium_WW226365.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 /* not needed, better to do <em> */
 .emphasis {
     font-style: italic;}
@@ -32,6 +38,7 @@ h4 {
 
 header, footer {
     border: 5px solid black;
+    padding: 5px;
     background-color: azure;
 }
 
